@@ -1,0 +1,28 @@
+Key Features
+ User Features:
+ Product Listing: Display products with images, descriptions, and prices.
+ Search & Filter: Users can search and filter products by category or price.
+ Cart System: Users can add/remove products from their cart.
+ User Authentication: Secure login and registration using PHP & MySQL.
+ Order Management: Users can place and track their orders.
+ Admin Panel Features:
+Add/Edit/Delete Products: Admins can manage products and stock.
+Order Management: View and update order status.
+User Management: Manage registered users.
+
+Technologies Used
+ Frontend: HTML, CSS (Bootstrap) for a responsive UI.
+ Backend: PHP for handling logic and database operations.
+ Database: MySQL to store user, product, and order data.
+ Session Management: Used for user authentication.
+
+File Structure
+📂 ecommerce_project/
+┣ 📁 assets/ → CSS, images, JavaScript files
+┣ 📁 includes/ → Header, footer, database connection files
+┣ 📁 admin/ → Admin panel for managing products and orders
+┣ 📄 index.php → Homepage with product listings
+┣ 📄 product.php → Product details page
+┣ 📄 cart.php → Shopping cart system
+┣ 📄 checkout.php → Order placement page
+┣ 📄 login.php / register.php → User authentication

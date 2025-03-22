@@ -1,0 +1,13 @@
+<?php
+try {
+    $host = 'localhost';
+    $dbname = 'ecommerce';
+    $username = 'chandu';
+    $password = '55555555';
+    
+    $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Connection failed: " . $e->getMessage());
+}
+?>
